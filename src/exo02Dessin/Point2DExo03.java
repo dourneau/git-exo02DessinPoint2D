@@ -1,14 +1,24 @@
 package exo02Dessin;
 
-public class Point2D {
+public class Point2DExo03 {
 	
 	int x;
 	int y;
 	
-	public void translater(int dX, int dY) {
-		this.setX(this.getX()+dX);
-		this.setY(this.getY()+dY);
+	public Point2DExo03() {
+		this.x = 1;
+		this.y = 1;
 	}
+
+	public Point2DExo03(int x, int y) {
+ 		this.x = x;
+		this.y = y;
+	}
+	
+
+	
+	
+	
 
 	public int getX() {
 		return x;
