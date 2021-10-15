@@ -5,6 +5,21 @@ public class Run {
 	public static void main(String[] args) {
 		
 		
+		
+		Point2DExo05 p1 = new Point2DExo05();
+		p1.x = 5;
+		p1.y = 7;
+		
+		Point2DExo05 p2 = new Point2DExo05(-5,-2);
+		
+		Point2DExo05 p3 = new Point3DExo05(5,2,7);
+		System.out.println(p3);
+		
+		
+		
+		
+		// Run Exo04
+		/*
 		Point2DExo04 p1 = new Point2DExo04();
 		p1.x = 5;
 		p1.y = 7;
@@ -23,7 +38,7 @@ public class Run {
 		System.out.println("Translation de vecteur : ("+dX+','+dY+")");
 		p2.translater(dX, dY);
 		System.out.println(p2);
-		
+		*/
 		
 		
 		
