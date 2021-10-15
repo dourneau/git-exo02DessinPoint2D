@@ -15,11 +15,11 @@ public class Point2DExo03 {
 		this.y = y;
 	}
 	
-
+	public void translater(int dX, int dY) {
+		this.setX(this.getX()+dX);
+		this.setY(this.getY()+dY);
+	}
 	
-	
-	
-
 	public int getX() {
 		return x;
 	}

@@ -6,10 +6,27 @@ public class Run {
 		
 		
 
+		Point2DExo03 p1 = new Point2DExo03(5,7);
+		Point2DExo03 p2 = new Point2DExo03(-5,-2);
+		
+		System.out.println(p1);
+		int dX = 5;
+		int dY = 2;
+		System.out.println("Translation de vecteur : ("+dX+','+dY+")");
+		p1.translater(dX,dY);
+		System.out.println(p1);
+		
+		System.out.println(p2);
+		dX = -5;
+		dY = -2;
+		System.out.println("Translation de vecteur : ("+dX+','+dY+")");
+		p2.translater(dX, dY);
+		System.out.println(p2);
 		
 		
 		
 		
+		/*
 		Point2D p1 = new Point2D();
 		Point2D p2 = new Point2D();
 		
@@ -30,7 +47,7 @@ public class Run {
 		System.out.println("Translation de vecteur : ("+dX+','+dY+")");
 		p2.translater(dX, dY);
 		System.out.println(p2);
-		
+		*/
 		
 		
 		
